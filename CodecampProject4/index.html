@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Technical Documentation Page</title>
+<link rel="stylesheet" href="./styles.css" />
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav id="navbar">
+  <header><h1>Form Element</h1></header>
+
+  <section class="nav-containers">
+    <a class="nav-link" href="#Introduction">Introduction</a>
+  </section>
+  
+  <section class="nav-containers">
+    <a class="nav-link" href="#Attributes">Attributes</a>
+  </section>
+  
+  <section class="nav-containers">
+    <a class="nav-link" href="#Accept-charset">Accept-charset</a>
+  </section>
+    
+  <section class="nav-containers">
+    <a class="nav-link" href="#Autocapitalize">Autocapitalize</a>
+  </section>
+  
+  <section class="nav-containers">
+    <a class="nav-link" href="#Autocomplete">Autocomplete</a>
+  </section>
+  
+  <section class="nav-containers">
+    <a class="nav-link" href="#Name">Name</a>
+  </section>
+  
+  <section class="nav-containers">
+    <a class="nav-link" href="#Rel">Rel</a>
+  </section>
+  
+  <section class="nav-containers">
+    <a class="nav-link" href="#Form_Submission">Form Submission</a>
+  </section>
+  
+  <section class="nav-containers">
+    <a class="nav-link" href="#Action">Action</a>
+  </section>
+  
+  <section class="nav-containers">
+    <a class="nav-link" href="#Enctype">Enctype</a>
+  </section>
+  
+  <section class="nav-containers">
+    <a class="nav-link" href="#Method">Method</a>
+  </section>
+  
+  <section class="nav-containers"> 
+    <a class="nav-link" href="#Novalidate">Novalidate</a>
+  </section>
+  
+  <section class="nav-containers">
+    <a class="nav-link" href="#Target">Target</a>
+  </section>
+   
+  <section class="nav-containers">
+    <a class="nav-link" href="#See_Also">See Also</a>
+  </section>
+  
+
+
+  
+
+
+</nav>
+
+
+<main id="main-doc">
+  
+  
+
+
+  
+  <section class="main-section" id="Introduction">
+    <header><h2>Introduction</h2></header>
+      <p>The HTML <code>form</code> element represents a document section containing interactive controls for submitting information.
+        It is possible to use the <code>:valid</code> and <code>:invalid</code>: CSS <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">pseudo-classes</a> to style a <code>form</code> element based on whether or not the <code>elements</code> inside the form are valid.
+      </p>
+      <!--  Maybe add the blue box here  -->
+  </section>
+
+  <section class="main-section" id="Attributes">
+    <header><h3>Attributes</h3></header>
+      <p>This element includes the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes">global attributes.</a></p>
+  </section>
+
+  <section class="main-section" id="Accept-charset">
+    <header>Accept-charset</header>
+      <p>Space-separated <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Localizations_and_character_encodings">character encodings</a> the server accepts. The browser uses them in the order in which they are listed. The default value means <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding">the same encoding as the page.</a>
+        (In previous versions of HTML, character encodings could also be delimited by commas.)</p>
+  </section>
+    
+  <section class="main-section" id="Autocapitalize">
+    <header>Autocapitalize</header>
+      <p> A nonstandard attribute used by iOS Safari that controls how textual form elements should be automatically capitalized. <code>autocapitalize</code> attributes on a form elements override it on <code>form</code>. Possible values:</p>
+      <ul>
+        <li><code>none</code>: No automatic capitalization</li>
+        <li><code>sentences</code>(default): Capitalize the first letter of each sentence.</li>
+        <li><code>words</code>: Capitalize the fiest letter of each word.</li>
+        <li><code>characters</code>: Capitalize all characters - that is, uppercase.</li>
+      </ul>
+  </section>
+    
+  <section class="main-section" id="Autocomplete">
+    <header>Autocomplete</header>
+      <p>Indicates whether input elements can by default have their values automatically completed by the browser. <code>autocomplete</code> attributes on form elements override it on <code>form</code>. Possible values:</p>
+      <ul>
+        <li><code>off</code>: The browser may not automatically complete entries. (Browsers tend to ignore this for suspected login forms; see <a href="https://developer.mozilla.org/en-US/docs/Web/Security/Securing_your_site/Turning_off_form_autocompletion#The_autocomplete_attribute_and_login_fields">the autocomplete attribute and login fields</a>.)</li>
+        <li><code>on</code>: The browser may automatically complete entries.</li>
+      </ul>
+  </section>
+  
+  <section class="main-section" id="Name">
+    <header>Name</header>
+      <p>The name of the form. Deprecated as of HTML 4 (use <code>id</code> instead). It must be unique among the forms in a document and not an empty string as of HTML5.</p>
+  </section>
+  
+  <section class="main-section" id="Rel">
+    <header>Rel</header>
+      <p>
+        Creates a hyperlink or annotation depending on the value, see the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel"><code>rel</code></a> attribute for details.</p>
+  </section>
+  
+  <section class="main-section" id="Form_Submission">
+    <header><h3>Form Submission</h3></header>
+      <p>The Following Attributes control behavior during form submission.</p>
+  </section>
+  
+  <section class="main-section" id="Action">
+    <header>Action</header>
+      <p>The URL that processes the form submission. This value can be overrriden by a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-formaction"><code>formaction</code></a> attribute on a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button"><code>button</code></a> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit"><code>input type="submit"</code></a>, or <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image"><code>input type="image"</code></a> element.</p>
+  </section>
+  
+  <section class="main-section" id="Enctype">
+    <header>Enctype</header>
+      <p>If the value of the <code>method</code> attribute is <code>post</code>, <code>enctype</code> is the <a href="https://en.wikipedia.org/wiki/Media_type">MIME type</a> of the form submission. Possible values:</p>
+      <ul>
+        <li><code>application/x-www-form-urlencoded</code>: The default value.</li>
+        <li><code>multipart/form-data</code>: Use this if the form contains <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input"><code>input</code></a> elements with <code>type=file</code>.</li>
+        <li><code>text/plain</code>: Introduced by HTML5 for debugging purposes.</li>
+      </ul>
+      <p>This value can be overridden by <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-formenctype"><code>formenctype</code></a> attributes on
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button"><code>button</code></a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit"><code>input type="submit"</code></a>,
+          or <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image"><code>input type="image"</code></a> elements.
+      </p>
+  </section>
+  
+  <section class="main-section" id="Method">
+    <header>Method</header>
+      <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP">HTTP</a> method to submit the form with. Possible (case insensitive) values:</p>
+      <ul>
+        <li><code>post</code>: The <a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html#sec9.5">POST method;</a> form data sent as the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Body">request body</a>.</li>
+        <li><code>get</code>: The <a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html#sec9.3">GET method;</a> form data appended to the <code>action</code> URL with a <code>?</code> separator.
+        Use this method when the form <a href="https://developer.mozilla.org/en-US/docs/Glossary/Idempotent">has no side-effects</a>.</li>
+        <li><code>dialog</code>: When the form is inside a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog"><code>dialog</code></a>, closes the dialog on submission.</li>
+      </ul>
+      <p>This value can be overridden by <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-formmethod"><code>formmethod</code></a> attributes on
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button"><code>button</code></a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit"><code>input type="submit"</code></a>,
+        or <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image"><code>input type="image"</code></a> elements.
+      </p>
+  </section>
+  
+  <section class="main-section" id="Novalidate">
+    <header>Novalidate</header>
+      <p>This Boolean attribute indicates that the form shouldn't be validated when submitted. If this attribute is not set (and therefore the form <b><i>is</i></b> validated), it can be overridden by a
+         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-formnovalidate"><code>formnovalidate</code></a>  attributes on
+         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button"><code>button</code></a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit"><code>input type="submit"</code></a>,
+         or <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image"><code>input type="image"</code></a> element belonging to the form.
+      </p>
+  </section>
+  
+  <section class="main-section" id="Target">
+    <header>Target</header>
+      <p>Indicates where to display the response after submitting the form. In HTML 4, this is the name/keyword for a frame. In HTML5, it is a name/keyword for a <i>browsing context</i> (for example, tab, window, or iframe). The following keywords have special meanings:</p>
+      <ul>
+        <li><code>_self</code> (default): Load into the same browing context as the current one.</li>
+        <li><code>_black</code>: Load into a new unnamed browsing context.</li>
+        <li><code>_parent</code>: Load into the parent browsing context of the current one. If no parent, behaves the same as <code>_self</code>.</li>
+        <li><code>_top</code>: Load into the top-level browsing context (i.e., the browsing context that is an ancestor of the current one and has no parent). If no parent, behaves the same as <code>_self</code>.</li>
+      </ul>
+      <p>This value can be overridden by <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-formtarget"><code>formtarget</code></a> attributes on
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button"><code>button</code></a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit"><code>input type="submit"</code></a>,
+        or <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image"><code>input type="image"</code></a> elements.
+      </p>
+  </section>
+  
+  <section class="main-section" id="See_Also">
+    <header>See Also</header>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Forms">HTML forms guide</a></li>
+        <li>Other elements that are used when creating forms: 
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button"><code>button</code></a>, 
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist"><code>datalist</code></a>,
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset"><code>fieldset</code></a>,
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input"><code>input</code></a>,
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen"><code>keygen</code></a>,
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label"><code>label</code></a>,
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend"><code>legend</code></a>,
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter"><code>meter</code></a>,
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup"><code>optgroup</code></a>,
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option"><code>option</code></a>,
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output"><code>output</code></a>,
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress"><code>progress</code></a>,
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select"><code>select</code></a>,
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea"><code>textarea</code></a>.
+        </li>
+        <li>Getting a list of the elements in the form: <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/elements"><code>HTMLFormElement.elements</code></a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Form_Role">ARIA: Form role</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Search_role">ARIA: Search role</a></li>
+      </ul>
+  </section>
+ 
+  
+  <footer>This is a test Technical Documentation Page. Based off the page https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form by MDN web docs</footer>
+</main>
+
+</body>
+
+</html>

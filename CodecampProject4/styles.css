@@ -1,0 +1,90 @@
+body{
+display:flex;
+font-family: 'Source Code Pro', monospace;
+}
+header{
+  font-size:24px;
+}
+
+
+
+#navbar{
+  display:flex;
+  flex-flow: column;
+  align-items:center;
+  justify-content: space-evenly;
+  width:250px;
+  height:100%;
+  position:fixed;
+  background:rgba(192,192,192 ,1 );
+  
+}
+
+.nav-containers{
+  
+  border-bottom: 2px solid black;
+  width:100%;
+  display:flex;
+  text-align:center;
+  padding-bottom: 12.5px;
+  
+  
+
+}
+.nav-link{
+  text-decoration: none;
+  color:black;
+  width:100%;
+  
+  
+  
+}
+.nav-containers:hover{
+  opacity:.5;
+}
+
+
+#main-doc{
+  margin-left:250px;
+  
+}
+
+.main-section{
+  padding: 25px 100px 25px 50px;
+ 
+}
+
+footer{
+  text-align:center;
+  margin-top:100px;
+}
+
+#main-doc a{
+  color:rgb(6, 102, 134);
+  text-decoration: none;
+  
+}
+#main-doc a:hover{
+  opacity:.5;
+}
+
+#main-doc code{
+  background:lightgray;
+  font-family: 'Source Code Pro', monospace;
+}
+
+p, ul{
+  font-size:15px;
+ 
+}
+
+p{
+  padding-left: 15px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
