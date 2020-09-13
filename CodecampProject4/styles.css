@@ -83,8 +83,34 @@ p{
 }
 
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+@media (max-width:450px){
+  p{
+    font-size:1.75rem;
+  }
+}
+
+@media (max-width:450px){
+  p{
+    font-size:1.75rem;
+  }
+}
+
+
+
+@media (max-width:450px){
+  .nav-link{
+    font-size:1.75rem;
+  }
+}
+
+@media (max-width:450px){
+  #main-doc header{
+    font-size:2rem;
+  }
+}
+
+@media (max-width:450px){
+  #main-doc ul{
+    font-size:1.75rem;
   }
 }
